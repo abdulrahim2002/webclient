@@ -1499,7 +1499,7 @@
   resolved "https://registry.npmjs.org/@pkgr/core/-/core-0.1.1.tgz"
   integrity sha512-cq8o4cWH0ibXh9VGi5P20Tu9XF/0fFXl9EUinr9QfTM7a7p0oTA4iJRCQWppXR1Pg8dSM0UCItCkPwsk9qWWYA==
 
-"@pmmmwh/react-refresh-webpack-plugin@0.5.15":
+"@pmmmwh/react-refresh-webpack-plugin@^0.5.15":
   version "0.5.15"
   resolved "https://registry.npmjs.org/@pmmmwh/react-refresh-webpack-plugin/-/react-refresh-webpack-plugin-0.5.15.tgz"
   integrity sha512-LFWllMA55pzB9D34w/wXUCf8+c+IYKuJDgxiZ3qMhl64KRMBHYM1I3VdGaD2BV5FNPV2/S2596bppxHbv2ZydQ==
@@ -7498,7 +7498,7 @@ react-refresh-typescript@2.0.10:
   resolved "https://registry.npmjs.org/react-refresh-typescript/-/react-refresh-typescript-2.0.10.tgz"
   integrity sha512-Cj8ZKTPEEdSoxiopFq0tB0rq/Wl90yWzAX1LEp9CGvzvauDUmC4BHIQXzcuT8/61naq/KmkR3A9VzqdZ9c6j1g==
 
-"react-refresh@>=0.10.0 <1.0.0", "react-refresh@0.10.x || 0.11.x || 0.12.x || 0.13.x || 0.14.x || 0.15.x || 0.16.x || 0.17.x", react-refresh@0.16.0:
+react-refresh@^0.16.0, "react-refresh@>=0.10.0 <1.0.0", "react-refresh@0.10.x || 0.11.x || 0.12.x || 0.13.x || 0.14.x || 0.15.x || 0.16.x || 0.17.x":
   version "0.16.0"
   resolved "https://registry.npmjs.org/react-refresh/-/react-refresh-0.16.0.tgz"
   integrity sha512-FPvF2XxTSikpJxcr+bHut2H4gJ17+18Uy20D5/F+SKzFap62R3cM5wH6b8WN3LyGSYeQilLEcJcR1fjBSI2S1A==
@@ -8804,10 +8804,15 @@ type-fest@^0.20.2:
   resolved "https://registry.npmjs.org/type-fest/-/type-fest-0.20.2.tgz"
   integrity sha512-Ne+eE4r0/iWnpAxD852z3A+N0Bt5RN//NjJwRd2VFHEmrywxf5vsZlh4R6lixl6B+wz/8d+maTSAkN1FIkI3LQ==
 
-type-fest@^0.21.3, "type-fest@>=0.17.0 <5.0.0":
+type-fest@^0.21.3:
   version "0.21.3"
   resolved "https://registry.npmjs.org/type-fest/-/type-fest-0.21.3.tgz"
   integrity sha512-t0rzBq87m3fVcduHDUFhKmyyX+9eo6WQjZvf51Ea/M0Q7+T374Jp1aUiyUl0GKxp8M/OETVHSDvmkyPgvX+X2w==
+
+type-fest@^4.41.0, "type-fest@>=0.17.0 <5.0.0":
+  version "4.41.0"
+  resolved "https://registry.npmjs.org/type-fest/-/type-fest-4.41.0.tgz"
+  integrity sha512-TeTSQ6H5YHvpqVwBRcnLDCBnDOHWYu7IvGbHT6N8AOymcr9PJGjc1GTtiWZTYg0NCgYwvnYWEkVChQAr9bjfwA==
 
 type-is@~1.6.18:
   version "1.6.18"
@@ -9077,7 +9082,7 @@ webpack-bundle-analyzer@4.10.2:
     sirv "^2.0.3"
     ws "^7.3.1"
 
-webpack-cli@6.0.1, webpack-cli@6.x.x:
+webpack-cli@^6.0.1, webpack-cli@6.x.x:
   version "6.0.1"
   resolved "https://registry.npmjs.org/webpack-cli/-/webpack-cli-6.0.1.tgz"
   integrity sha512-MfwFQ6SfwinsUVi0rNJm7rHZ31GyTcpVE5pgVA3hwFRb7COD4TzjUUwhGWKfO50+xdc2MQPuEBBJoqIMGt3JDw==
@@ -9108,7 +9113,7 @@ webpack-dev-middleware@^7.4.2:
     range-parser "^1.2.1"
     schema-utils "^4.0.0"
 
-webpack-dev-server@*, "webpack-dev-server@3.x || 4.x || 5.x", webpack-dev-server@5.2.0:
+webpack-dev-server@*, webpack-dev-server@^5.2.0, "webpack-dev-server@3.x || 4.x || 5.x":
   version "5.2.0"
   resolved "https://registry.npmjs.org/webpack-dev-server/-/webpack-dev-server-5.2.0.tgz"
   integrity sha512-90SqqYXA2SK36KcT6o1bvwvZfJFcmoamqeJY7+boioffX9g9C0wjjJRGUrQIuh43pb0ttX7+ssavmj/WN2RHtA==
@@ -9155,7 +9160,7 @@ webpack-sources@^3.2.3:
   resolved "https://registry.npmjs.org/webpack-sources/-/webpack-sources-3.2.3.tgz"
   integrity sha512-/DyMEOrDgLKKIG0fmvtz+4dUX/3Ghozwgm6iPp8KRhvn+eQf9+Q7GWxVNMk3+uCPWfdXYC4ExGBckIXdFEfH1w==
 
-webpack@^5, webpack@^5.0.0, webpack@^5.1.0, webpack@^5.11.0, webpack@^5.20.0, webpack@^5.27.0, webpack@^5.82.0, "webpack@>=4.43.0 <6.0.0", webpack@>=5, webpack@5.97.1:
+webpack@^5, webpack@^5.0.0, webpack@^5.1.0, webpack@^5.11.0, webpack@^5.20.0, webpack@^5.27.0, webpack@^5.82.0, webpack@^5.97.1, "webpack@>=4.43.0 <6.0.0", webpack@>=5:
   version "5.97.1"
   resolved "https://registry.npmjs.org/webpack/-/webpack-5.97.1.tgz"
   integrity sha512-EksG6gFY3L1eFMROS/7Wzgrii5mBAFe4rIr3r2BTfo7bcc+DWwFZ4OJ/miOuHJO/A85HwyI4eQ0F6IKXesO7Fg==
