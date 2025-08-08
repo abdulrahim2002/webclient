@@ -1,6 +1,7 @@
 {
   "name": "webclient",
   "private": true,
+  "license": "All Rights Reserved",
   "version": "1.2.1",
   "scripts": {
     "start": "cross-env NODE_ENV=development webpack serve",
